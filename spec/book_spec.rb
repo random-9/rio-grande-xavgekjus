@@ -9,7 +9,7 @@ describe Book do
 
   # check initialization
   describe 'Initialization' do
-    it 'should be a book' do
+    it 'is an instance of the Book class' do
       expect(@book).to be_instance_of(Book)
     end
 
